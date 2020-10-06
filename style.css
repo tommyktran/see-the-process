@@ -127,16 +127,19 @@ body {
     border: 3px solid #111;
     border-radius: 5px;
     margin-top: 5px;
-    letter-spacing: 0;
-}
-.read {
-    width: 70px;
+    padding: 2px 5px;
 }
 .post-button a {
     color: #111;
     text-decoration: none;
 }
 
+.post-button-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 40%;
+}
 /********** Highlights **********/
 .post-title-highlight {
     height: .3em;
