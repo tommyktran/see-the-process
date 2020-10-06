@@ -138,7 +138,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width: 40%;
+    width: 40%; 
 }
 /********** Highlights **********/
 .post-title-highlight {
