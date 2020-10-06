@@ -84,7 +84,7 @@ body {
 .intro {
     font-family: Kingthings;
     font-size: 1.2em;
-    text-align: left;
+    text-align: justify;
     margin: 12px;
     line-height: 1;
 }
