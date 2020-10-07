@@ -84,7 +84,7 @@ body {
 }
 .intro {
     font-family: Kingthings;
-    font-size: 1.2em;
+    font-size: 1.4em;
     text-align: justify;
     margin: 12px;
     line-height: 1;
@@ -219,12 +219,19 @@ footer a {
         justify-content: space-around;
         width: 70%;
     }
-    body {
-        font-size: 14px;
-    }
+    
 }
-@media (max-width: 390px) {
+@media (max-width: 510px) {
     .site-title {
-        font-size: 2.9em;
+        font-size: 2.7em;
+    }
+    body {
+        font-size: 16px;
+    }
+    .intro {
+        font-size: 1.2em;
+    }
+    .post-block-content {
+        text-align: left;
     }
 }
