@@ -208,9 +208,6 @@ footer a {
     .wrapper {
         width: 100%;
     }
-    body {
-        font-size: 14px;
-    }
 }
 @media (max-width: 720px) {
     .post-block {
@@ -221,6 +218,9 @@ footer a {
         flex-direction: row;
         justify-content: space-around;
         width: 70%;
+    }
+    body {
+        font-size: 14px;
     }
 }
 @media (max-width: 390px) {
